@@ -17,4 +17,3 @@ public protocol ServicePermissions {
     func requestPermissions(handler: @escaping (PermissionsState) -> Void)
     
 }
-
