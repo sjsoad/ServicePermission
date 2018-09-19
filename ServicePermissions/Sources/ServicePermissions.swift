@@ -12,7 +12,7 @@ import UIKit
 public protocol ServicePermissions {
     
     associatedtype PermissionsState
-    
+
     func permissionsState() -> PermissionsState
     func requestPermissions(handler: @escaping (PermissionsState) -> Void)
     
